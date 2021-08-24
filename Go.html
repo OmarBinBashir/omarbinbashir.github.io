@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Webpage Project</title>
+        <script src= "Jquery.js"></script>
+        <script src= "Project.js"></script>
+        <style href= "style.css" type="text/csss"></style>
+        <link rel="shortcut icon" type="image/jpg" href="favicon.png"/>
+    </head>
+    <body>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+    </style>
+    <section>
+        
+    <div class="header">
+        <h1>Webpage Project</h1>
+    <p>Random Content</p>
+  </div>
+  
+  <div class="topnav">
+    <a href="Index.html">Home</a>
+    <a href="AboutUs.html">About us</a>
+    <a href="ContactUs.html">Contact us</a>
+    <a href="https://www.layer3.ng" style="float:right">Blog</a>
+  </div>
+        
+    </section>
+<style>
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: right;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" style="width: 100%;">
+      <h2>TITLE HEADING</h2>
+      <h5>Desc</h5>
+      <div id="slideshow">
+        <div style="width: 100%;">
+          <img src="istockphoto-504356702-640x640 copy 2.jpg" style="height: 290px; width:98%">
+        </div>
+        <div style="width: 100%;">
+          <img src="henry-chen-ZwRCXGkv30w-unsplash.jpg" style="width:98%; height: 290px;">
+        </div>
+        <div>
+          Insert images in the future
+        </div>
+      </div>
+      <p>Random text</p>
+      <p>Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space,</p>
+    </div>
+    <!--div class="card">
+      <h2>SECOND TITLE HEADING</h2>
+      <h5>Desc</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space, Something to fill up space,</p>
+    </div-->
+    <div class="card-group">
+      <div class="card" style="width: 312px">
+        <img src="istockphoto-504356702-640x640.jpg" class="card-img-top" alt="..." style="width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card" style="width: 312px">
+        <img src="istockphoto-504356702-640x640 copy.jpg" class="card-img-top" alt="..." style="width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+      <div class="card" style="width: 312px">
+        <img src="istockphoto-504356702-640x640 copy 2.jpg" class="card-img-top" alt="..." style="width: 100%;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Car News</h2>
+      <div class="fakeimg" style="height:100px;">Image of a Car</div>
+      <p><a href="CarNews.html" style="color: black;">Flying car may be commercially available earlier than you think.</a></p>
+    </div>
+    <div class="card">
+      <h3>Popular Cars</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Social Media Accounts</h3>
+      <p><img src="instagram_logo_icon_168715.png" style="width: 20px;"><a href="https://instagram.com" style="color: black;">Ig</p>
+      <p><img src="snapchat_logo_icon_181736.png" style="width: 20px;"><a href="https://snapchat.com" style="color: black;">SC</p>
+      <p><img src="twitter_logo_icon_132881.png" style="width: 20px;"><a href="https://twitter.com" style="color: black;">Twitter</p></a>
+      <p><img src="4202041logosocialsocialmediavideoyoutube-115647_115654.png" style="width: 20px;"><a href="https://youtube.com" style="color: black;">YT</p></a>
+    </div>
+  </div>
+</div>
+
+
+
+<style>
+  .card-group {
+    display: flex;
+  }
+</style>
+
+
+
+
+<style>
+#slideshow { 
+  /*margin: 50px auto;*/ 
+  position: relative; 
+  width: 100%; 
+  height: 310px; 
+  padding: 10px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div { 
+  position: absolute; 
+  /*top: 10px; 
+  left: 10px; 
+  right: 10px; 
+  bottom: 10px; */
+}</style>
+
+
+<script>
+  $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() {
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+}, 3000);
+
+</script>
+
+
+<section>
+  <style> 
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+
+<div class="footer">
+  <p2>Webpage Project is a project which was created by Umar. While using this Webpage, you agree to have read and accepted our terms of use, cookie and privacy policy.
+
+    Copyright 2021 by Layer3NG. All Rights Reserved.
+  </p2>
+</div>
+</section>
+
+
+
+
+</body>
+</html>
+
+
+-----------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Webpage Project</title>
+        <script src= "Project.js"></script>
+        <style href= "style.css" type="text/csss"></style>
+    </head>
+    <body>
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+            
+            li {
+              float: left;
+              border-right:1px solid #bbb;
+            }Haggdo if 
+            
+            li:last-child {
+              border-right: none;
+            }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+
+            
+            li a:hover:not(.active) {
+              background-color: #111;
+            }
+            
+            .active {
+              background-color: #ff0000;
+            }
+            </style>
+        <section>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+              </ul>
+        </section>
+        <section>
+            Banner
+        </section>
+        <section>
+            Service
+        </section>
+        <section>
+            Footer
+        </section>
+        
+
+
+
+
+
+
+        
+    </body>
+</html>
